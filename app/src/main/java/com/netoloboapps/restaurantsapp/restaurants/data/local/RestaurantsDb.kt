@@ -11,6 +11,4 @@ import androidx.room.RoomDatabase
 )
 abstract class RestaurantsDb : RoomDatabase() {
     abstract val dao: RestaurantsDao
-
-
 }

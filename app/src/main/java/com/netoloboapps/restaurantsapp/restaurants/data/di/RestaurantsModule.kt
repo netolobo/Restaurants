@@ -17,10 +17,10 @@ import javax.inject.Singleton
 
 @Module
 @InstallIn(SingletonComponent::class)
-object RestaurantsModule {
+object  RestaurantsModule {
 
     @Provides
-    fun provideRomDao(database: RestaurantsDb) : RestaurantsDao{
+    fun provideRoomDao(database: RestaurantsDb) : RestaurantsDao{
         return  database.dao
     }
 
